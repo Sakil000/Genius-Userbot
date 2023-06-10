@@ -8,7 +8,7 @@
 
 ### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐨 𝐇𝐞𝐫𝐨𝐤𝐮
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XdityaHalder/GeniusUserbot)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sakil000/Genius-Userbot)
 
 
 
