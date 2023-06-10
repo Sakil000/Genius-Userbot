@@ -60,12 +60,12 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green] 🥀 Genius Userbot Started ✨\n"
+        "[bold green] 🥀 SAKIL Userbot Started ✨\n"
     )
     try:
         await robot.send_message(
             LOG_GROUP_ID,
-            "<b> 🥀 Genius UserBot is Here ✨</b>",
+            "<b> 🥀 SAKIL UserBot is Here ✨</b>",
         )
     except Exception as e:
         print(
@@ -84,7 +84,7 @@ async def initiate_bot():
         try:
             await client.send_message(
                 LOG_GROUP_ID,
-                "<b>🥀 Genius UserBot is Active ✨</b>",
+                "<b>🥀 SAKIL UserBot is Active ✨</b>",
             )
         except Exception as e:
             print(
@@ -93,13 +93,13 @@ async def initiate_bot():
             console.print(f"\n[red] Stopping Bot")
             return
         try:
-            await client.join_chat("AdityaServer")
-            await client.join_chat("AdityaDiscus")
+            await client.join_chat("Its_Me_SakiL")
+            await client.join_chat("Its_Me_SakiL")
         except:
             pass
         console.print(f"├[red] UserBot Started as {ASSNAME}")
         console.print(f"├[green] ID :- {ASSID}")
-        console.print(f"└[red] ✅ Genius UserBot Boot Complete 💯 ...")
+        console.print(f"└[red] ✅ SAKIL UserBot Boot Complete 💯 ...")
         await idle()
         console.print(f"\n[red] Userbot Stopped")
 
@@ -114,13 +114,13 @@ async def start(_, message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
+💥 Hᴇʟʟᴏ, I Aᴍ SAKIL » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ Oᴡɴᴇʀ'xD› : [SAKIL](https://t.me/Its_Me_SakiL)
+┣★ Uᴘᴅᴀᴛᴇs ›› : [SAKIL](https://t.me/Its_Me_SakiL)
+┣★ Sᴜᴘᴘᴏʀᴛ » : [SAKIL Dɪsᴄᴜs](https://t.me/+7H7Jdk9VXkI1Mjhl)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
@@ -130,7 +130,7 @@ Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/GeniusBoi/Genius-UserBot")
+                        "💥 Dᴇᴘʟᴏʏ SAKIL UsᴇʀBᴏᴛ ✨", url=f"https://t.me/+7H7Jdk9VXkI1Mjhl")
                 ]
                 
            ]
@@ -181,10 +181,10 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
     top_text = f"""**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+SAKIL UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
 
 💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+Tᴏ Gᴇᴛ SAKIL Cᴏᴍᴍᴀɴᴅs ✨...**
  """
     if mod_match:
         module = mod_match.group(1)
